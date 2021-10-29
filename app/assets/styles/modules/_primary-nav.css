@@ -1,8 +1,8 @@
 .primary-nav {
-  padding-top: 10px;
+  padding-top: 10;
 
   @mixin atMedium {
-    padding-top: 0;
+    padding-top: 10px;
   }
   &--pull-right {
     @mixin atMedium {
@@ -12,9 +12,7 @@
 
   ul {
     margin: 0;
-    padding: 0;
-
-    @mixin clearfix;
+    padding: 0 @mixin clearfix;
   }
 
   li {
